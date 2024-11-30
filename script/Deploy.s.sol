@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-import "cctp-foundry/lib/forge-std/src/script.sol";
+import "cctp-foundry/lib/forge-std/src/Script.sol";
 import "../contracts/SourceChainBridge.sol";
-import "../contracts/DestinationChainBridge.sol";
 import "../contracts/MockCCTPEndpoint.sol";
 
 contract Deploy is Script {
